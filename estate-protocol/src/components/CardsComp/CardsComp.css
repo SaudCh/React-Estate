@@ -1,0 +1,86 @@
+#cardsComp {
+  background: #f8f9fd;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+#cardsComp .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardsComp .cardsContainer .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin: 40px;
+  height: 250px;
+  padding: 0px 15px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+  position: relative;
+}
+
+#cardsComp .cardsContainer .cards p {
+  text-align: center;
+}
+
+#cardsComp .cardsContainer .cards img {
+  margin-bottom: 15px;
+}
+
+#cardsComp .cardsContainer .cards .iconContainer {
+  width: 50px;
+  height: 50px;
+  background: var(--bg-secondary);
+  position: absolute;
+  bottom: -24px;
+  /* right: 43%; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#cardsComp .cardsContainer .cards .iconContainer:hover {
+  background: var(--bg-primary);
+}
+
+#cardsComp .cardsContainer .cards .icon {
+  color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+  #cardsComp .cardsContainer .cards {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  #cardsComp .cardsContainer .cards {
+    width: 400px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #cardsComp .cardsContainer .cards {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  /* #cardsComp .cardsContainer .cards .iconContainer {
+    right: 42%;
+  } */
+}

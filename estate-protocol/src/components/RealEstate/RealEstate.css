@@ -1,0 +1,222 @@
+#realEstate {
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+#realEstate .left-side {
+  width: 40%;
+}
+#realEstate .left-side .touch {
+  background-color: #2a244b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px 5px 20px;
+  border-radius: 30px;
+}
+#realEstate .left-side .touch button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #707070;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+#realEstate .left-side .touch button:hover {
+  background-color: rgb(232, 65, 120);
+}
+#realEstate .left-side .touch p {
+  margin: 0%;
+  color: #e07442;
+}
+#realEstate .left-side h1 {
+  color: white;
+  font-size: 60px;
+}
+#realEstate .left-side .btn {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0%;
+}
+#realEstate .left-side .btn .operMini {
+  background-color: rgb(48, 48, 246);
+  border-radius: 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+#realEstate .left-side .btn .operMini:hover {
+  background-color: rgb(15, 15, 207);
+}
+#realEstate .left-side .btn .operMini button {
+  outline: none;
+  border: none;
+  color: white;
+  background: transparent;
+  padding: 0px 10px;
+}
+#realEstate .left-side .btn .operMini .greater {
+  background-color: white;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 20px;
+}
+#realEstate .left-side .btn .operWhite {
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#realEstate .left-side .btn .operWhite:hover {
+  border: 1px solid rgb(170, 170, 170);
+}
+#realEstate .left-side .btn .operWhite button {
+  outline: none;
+  border: none;
+  color: gray;
+  background: transparent;
+  padding: 0px 10px;
+}
+#realEstate .left-side .btn .operWhite .great {
+  background-color: grey;
+  color: black;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 20px;
+}
+#realEstate .right-side {
+  width: 60%;
+  height: auto;
+}
+#realEstate .right-side {
+  margin-top: 30px;
+}
+#realEstate .right-side img {
+  background-size: 100% 100%;
+  height: 450px;
+  width: 100%;
+}
+#realEstate .socialIcons {
+  display: flex;
+  margin-top: 30px;
+}
+
+#realEstate .socialIcons .icon {
+  margin: 0px 30px 0px 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#realEstate .socialIcons .twitter {
+  color: #479ff1;
+}
+
+#realEstate .socialIcons .twitter:hover {
+  color: var(--bg-primary);
+}
+
+#realEstate .socialIcons .telegram {
+  color: #479ff1;
+}
+
+#realEstate .socialIcons .telegram:hover {
+  color: var(--bg-primary);
+}
+
+#realEstate .socialIcons .medium {
+  color: rgb(64, 173, 64);
+}
+
+#realEstate .socialIcons .medium:hover {
+  color: rgb(35, 129, 35);
+}
+
+#realEstate .socialIcons .reddit {
+  color: rgb(255, 102, 0);
+}
+
+#realEstate .socialIcons .reddit:hover {
+  color: rgb(214, 43, 0) (255, 51, 0);
+}
+
+@media screen and (max-width: 768px) {
+  #realEstate {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 5px;
+  }
+  #realEstate .left-side {
+    width: 100%;
+  }
+  #realEstate .right-side {
+    width: 100%;
+  }
+  #realEstate .left-side .touch {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5px 5px 5px 5px;
+  }
+  #realEstate .left-side .touch button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+  #realEstate .left-side h1 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  #realEstate .left-side .btn .operMini {
+    font-size: 13px;
+  }
+  #realEstate .left-side .btn .operMini button {
+    padding: 10px 15px;
+  }
+  #realEstate .left-side .btn .operWhite {
+    font-size: 13px;
+  }
+  #realEstate .left-side .btn .operWhite button {
+    padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #realEstate .left-side .btn {
+    display: flex;
+    flex-direction: column;
+  }
+  #realEstate .left-side .btn .operMini {
+    font-size: 13px;
+    width: 100%;
+    margin-right: 0;
+  }
+  #realEstate .left-side .btn .operMini button {
+    padding: 5px 15px;
+  }
+  #realEstate .left-side .btn .operWhite {
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  #realEstate .left-side .btn .operWhite button {
+    padding: 5px 15px;
+  }
+}

@@ -1,0 +1,89 @@
+#ourTeam {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  background-image: url(../../assets/footer-background3.svg),
+    url(../../assets/footer-background2.svg), url(),
+    url(../../assets/foooter-background1.png);
+  background-repeat: no-repeat;
+  background-position: top -200px left, top right, bottom -50px center,
+    bottom -100px right -500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ourTeam h1 {
+  color: white;
+}
+
+#ourTeam .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#ourTeam .cardsContainer .cards {
+  width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+#ourTeam .cardsContainer .cards img {
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#ourTeam .cardsContainer .cards h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#ourTeam .cardsContainer .cards h6 {
+  color: var(--bg-primary);
+  text-align: center;
+}
+
+#ourTeam .cardsContainer .cards p {
+  color: white;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+#ourTeam .cardsContainer .socialIons .icons {
+  font-size: 30px;
+  color: #479ff1;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+#ourTeam .cardsContainer .socialIons .icons:hover {
+  color: var(--bg-primary);
+}
+
+@media screen and (max-width: 768px) {
+  #ourTeam .cardsContainer .cards {
+    width: 300px;
+    margin: 10px 10px 30px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #ourTeam .cardsContainer .cards {
+    width: 300px;
+  }
+
+  #ourTeam .cardsContainer .cards img {
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+  }
+}

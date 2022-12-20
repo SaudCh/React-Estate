@@ -1,0 +1,31 @@
+#protocol {
+  width: 100%;
+  height: auto;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+#protocol .real {
+  width: 40%;
+}
+#protocol .real h4 {
+  color: white;
+  margin-bottom: 20px;
+}
+#protocol .real p {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  #protocol {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #protocol img {
+    width: 100%;
+  }
+  #protocol .real {
+    width: 100%;
+  }
+}

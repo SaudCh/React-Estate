@@ -1,0 +1,47 @@
+#itsKind {
+  width: 100%;
+  /* background: var(--bg-secondary); */
+  background-image: url(../../assets/itsKind1.webp);
+  background-repeat: no-repeat;
+  background-position: top -400px left;
+  padding: 180px 0px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+#itsKind .textBox {
+  color: white;
+  width: 500px;
+}
+
+#itsKind img {
+  width: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+  #itsKind .textBox {
+    width: 400px;
+  }
+
+  #itsKind img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #itsKind {
+    padding: 50px 30px;
+  }
+
+  #itsKind .textBox {
+    width: 100%;
+  }
+
+  #itsKind img {
+    width: 100%;
+  }
+}
